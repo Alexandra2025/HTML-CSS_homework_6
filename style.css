@@ -22,3 +22,37 @@ a {
 .header_menu {
   padding: 18px;
 }
+
+.top_content {
+  background: #f1e4e6;
+  margin-bottom: 65px;
+}
+
+.top-write1 {
+  background: #f16d7f;
+  height: 92px;
+  width: 12px;
+}
+
+.top-write2 {
+  padding-left: 16px;
+  height: 93px;
+  width: 377px;
+}
+
+.top_text {
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+  font-weight: 900;
+}
+
+.item {
+  height: 764px;
+  display: flex;
+  align-items: center;
+}
+
+.item-flex {
+  display: flex;
+}

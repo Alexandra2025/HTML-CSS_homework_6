@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding-left: 230px;
+  padding-right: 230px;
+  height: 75px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+
+.header_logo {
+  padding: 18px;
+}
+
+.header_menu {
+  padding: 18px;
+}

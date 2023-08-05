@@ -8,20 +8,15 @@
   margin: 0 auto;
 }
 
-.header {
-  background-color: #222;
-  width: 100%;
-}
-
-a {
-  text-decoration: none;
-}
-
 .header_box {
   height: 75px;
   padding: 16px;
   display: flex;
   justify-content: space-between;
+}
+
+.header {
+  background-color: #222;
 }
 
 .top_content {
@@ -56,7 +51,6 @@ a {
 }
 
 .item {
-  height: 764px;
   display: flex;
   align-items: center;
 }
@@ -177,8 +171,8 @@ h4 {
   padding: 16px 24px 16px 24px;
 }
 
-.poduct_bot_text {
-  padding: 16px;
+.product_bot_text {
+  padding-top: 16px;
 }
 
 .card_product {
@@ -192,4 +186,13 @@ h4 {
   width: 360px;
   height: 587px;
   flex-shrink: 0;
+}
+
+.price {
+  color: #f16d7f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 16px;
 }

@@ -29,6 +29,11 @@ body {
   margin-bottom: 65px;
 }
 
+.img_top {
+  display: block;
+  margin: auto;
+}
+
 .top-write1 {
   background: #f16d7f;
   height: 92px;
@@ -61,12 +66,20 @@ body {
 }
 
 .top-item1 {
-  width: 800px;
+  width: 50%;
   height: 764px;
 }
 
+.top-item2 {
+  padding-left: 100px;
+  width: 50%;
+  height: 764px;s
+}
+
 .item-flex {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
 }
 
 .card_top {
@@ -159,6 +172,7 @@ body {
 }
 
 .card_product {
+  height: 587px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -166,8 +180,7 @@ body {
 }
 
 .one_product {
-  width: 360px;
-  height: 587px;
+  width: 32%;
   flex-shrink: 0;
 }
 
@@ -178,9 +191,14 @@ body {
   padding-top: 16px;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 376px);
+    padding-right: calc(50% - 376px);
+  }
+
   .conteiner {
-    width: 1024px;
+    width: 768px;
   }
   .header_menu {
     padding-right: 41px;
@@ -189,11 +207,72 @@ body {
     font-size: 44px;
   }
 
+  .img_top {
+    width: 386px;
+    height: 368px;
+  }
+
   .top_text {
     font-size: 24px;
   }
   .top-item1 {
-    width: 386px;
     height: 368px;
   }
-}
+
+  .top-item2{
+    height: 368px;
+    padding-left: 39px;
+  }
+
+  .header_box {
+    padding: 16px 32px 16px 32px ;
+  }
+
+  .card_top {
+    height: 168px;
+  }
+ 
+ 
+  @media (min-width: 320px) and (max-width: 767x) {
+    .center {
+      padding-left: calc(50% - 188px);
+      padding-right: calc(50% - 188px);
+    }
+  
+    .conteiner {
+      width: 320px;
+    }
+    .header_menu {
+      padding-right: 41px;
+    }
+    .top_heading {
+      font-size: 44px;
+    }
+  
+    .img_top {
+      width: 386px;
+      height: 368px;
+    }
+  
+    .top_text {
+      font-size: 24px;
+    }
+    .top-item1 {
+      height: 368px;
+    }
+  
+    .top-item2{
+      height: 368px;
+      padding-left: 39px;
+    }
+  
+    .header_box {
+      padding: 16px 32px 16px 32px ;
+    }
+  
+    .card_top {
+      height: 168px;
+    }
+   
+   
+  

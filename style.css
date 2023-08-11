@@ -198,13 +198,21 @@ body {
   }
 
   .conteiner {
-    width: 768px;
+    width: 720px;
   }
-  .header_menu {
-    padding-right: 41px;
-  }
+  
   .top_heading {
     font-size: 44px;
+  }
+
+  .card_top{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .card-bottom {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .img_top {
@@ -215,17 +223,18 @@ body {
   .top_text {
     font-size: 24px;
   }
+  
   .top-item1 {
     height: 368px;
   }
 
-  .top-item2{
+  .top-item2 {
     height: 368px;
     padding-left: 39px;
   }
 
   .header_box {
-    padding: 16px 32px 16px 32px ;
+    padding: 16px;
   }
 
   .card_top {

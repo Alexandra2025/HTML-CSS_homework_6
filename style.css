@@ -7,10 +7,9 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.conteiner {
-  width: 1140px;
-  margin: 0 auto;
-  background-color: antiquewhite;
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);;
 }
 
 .header {
@@ -53,6 +52,7 @@ body {
   line-height: normal;
 }
 
+
 .top_text {
   color: #222222;
   font-size: 32px;
@@ -73,7 +73,7 @@ body {
 .top-item2 {
   padding-left: 100px;
   width: 50%;
-  height: 764px;s
+  height: 764px;
 }
 
 .item-flex {
@@ -147,11 +147,8 @@ body {
 
 .text_bottom {
   margin-bottom: 48px;
-  display: flex;
-  flex-direction: column;
   text-align: center;
   color: #9f9f9f;
-  font-family: Lato;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -172,16 +169,17 @@ body {
 }
 
 .card_product {
-  height: 587px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .one_product {
   width: 32%;
   flex-shrink: 0;
+  margin-bottom: 25px;
 }
 
 .price {
@@ -190,6 +188,45 @@ body {
   font-weight: 400;
   padding-top: 16px;
 }
+
+.text_top_bottom {
+  color: #222;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_bot_bottom {
+  color: #9F9F9F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text_all_product {
+  color: #F26376;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+ .all_product {
+  display: flex;
+  justify-content: center;
+  margin-left: calc(50% - 109px);
+  margin-right: calc(50% - 109px);
+  padding-bottom: 15PX;
+  padding-top: 15px;
+  padding-left: 39px;
+  padding-right: 39px;
+
+  border:#ff6a6a solid 2px; 
+ }
+
+
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .center {
@@ -223,7 +260,7 @@ body {
   .top_text {
     font-size: 24px;
   }
-  
+
   .top-item1 {
     height: 368px;
   }
@@ -240,7 +277,8 @@ body {
   .card_top {
     height: 168px;
   }
- 
+
+  
  
   @media (min-width: 320px) and (max-width: 767x) {
     .center {

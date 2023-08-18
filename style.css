@@ -88,40 +88,44 @@ body {
 }
 
 .card_top__text {
+  padding-top: 105px;
   letter-spacing: 0.05em;
   color: #ffffff;
   position: absolute;
-  top: 105px;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
 }
 
 .card_top__text_pink {
+  padding-top: 130px;
   letter-spacing: 0.05em;
   color: #f16d7f;
   position: absolute;
-  top: 125px;
   font-size: 24px;
   font-weight: 700;
   line-height: normal;
 }
 
 .card_bot__text {
+  padding-top: 65px;
   letter-spacing: 0.05em;
   color: #ffffff;
   position: absolute;
-  top: 65px;
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
 }
 
+.project__img {
+  width: 100%;
+}
+
 .card_bot__text_pink {
+  padding-top: 91px;
   letter-spacing: 0.05em;
   color: #f16d7f;
   position: absolute;
-  top: 85px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -228,28 +232,14 @@ body {
 
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .center {
-    padding-left: calc(50% - 376px);
-    padding-right: calc(50% - 376px);
-  }
-
-  .conteiner {
-    width: 720px;
+    padding-left: calc(50% - 367px);
+    padding-right: calc(50% - 367px);
   }
   
   .top_heading {
     font-size: 44px;
-  }
-
-  .card_top{
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-
-  .card-bottom {
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   .img_top {
@@ -276,9 +266,32 @@ body {
 
   .card_top {
     height: 168px;
+    row-gap: 30px;
   }
 
-  
+  .card_top__text {
+    padding-top: 59px;
+  }
+
+  .card_top__text_pink {
+    padding-top: 85px;
+  }
+
+  .card_bot__text {
+    padding-top: 33px;
+  }
+
+  .card_bot__text_pink {
+    padding-top: 59px;
+  }
+
+  .card-bottom {
+    margin-bottom: 110px;
+  }
+
+  .one_product {
+    width: 47%;
+  }
  
   @media (min-width: 320px) and (max-width: 767x) {
     .center {
